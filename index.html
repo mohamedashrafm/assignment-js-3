@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>web page</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div style="background-color: #f7ecde; min-height: 100vh;">
+
+        <div class="header d-flex justify-content-center align-items-center py-5">
+            <h1>Bookmarker</h1>
+        </div>
+        <div style="border: 2px dotted #777; width: 85%; margin: auto;">
+
+        </div>
+        <div class="main">
+            <div class="title d-flex justify-content-center align-items-center my-4">
+                <h2>
+                    <i class="fa-solid fa-bookmark"></i>
+                    Bookmark your favorite sites
+                    <i class="fa-solid fa-bookmark"></i>
+                </h2>
+            </div>
+            <div class="container">
+                <div class="col-md-12 my-4">
+                    <label for="site-name" class="fw-bold">
+                        <span><i class="fa-solid fa-book-bookmark"></i></span>
+                        Site Name</label>
+                    <input class="form-control my-2 " type="text" name="" id="site-name" placeholder="Bookmark Name">
+                </div>
+
+
+                <div class="col-md-12 my-4">
+                    <label for="site-url" class="fw-bold">
+                        <span><i class="fa-solid fa-link"></i></span>
+                        Site URL</label>
+                    <input type="text" class="form-control my-2" name="" id="site-url" placeholder="Website URL">
+                </div>
+                <div class="button d-flex justify-content-center align-items-center">
+                    <button class="btn btn-outline-danger" id="submitbtn">Submit</button>
+                </div>
+                <div style="border: 2px dotted #777;  margin:20px auto;">
+                </div>
+            </div>
+
+        </div>
+
+        <table class="w-75 m-auto text-center">
+            <thead>
+                <tr>
+                    <th>Index </th>
+                    <th> Website Name </th>
+                    <th> Visit </th>
+                    <th> Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+
+            </tbody>
+            
+        </table>
+      <div id="no"></div>
+
+    </div>
+
+
+        
+      
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
